@@ -1,0 +1,7 @@
+Zen Garden (big stone) =
+Zen Garden (gravel) =
+Zen Garden (margin @1) =
+Zen Garden (stone @1) =
+Zen Garden (stone fragment @1) =
+Zen Garden (wall @1) =
+Zen Garden (waterfall) =

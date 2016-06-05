@@ -20,7 +20,7 @@ else
 end
 
 minetest.register_node("zen:garden_gravel", {
-	description = 'Zen Garden (gravel)',
+	description = i18n('Zen Garden (gravel)'),
 	tiles = {
 		"default_gravel.png",
 		"default_gravel.png",
@@ -45,7 +45,7 @@ minetest.register_node("zen:garden_gravel", {
 })
 
 minetest.register_node("zen:garden_fragment_1", {
-	description = 'Zen Garden (stone fragment 1)',
+	description = i18n('Zen Garden (stone fragment @1)', '1'),
 	tiles = {
 		"default_gravel.png^zen_stone_01.png",
 		"default_gravel.png",
@@ -85,7 +85,7 @@ minetest.register_node("zen:garden_fragment_1", {
 })
 
 minetest.register_node("zen:garden_fragment_2", {
-	description = 'Zen Garden (stone fragment 2)',
+	description = i18n('Zen Garden (stone fragment @1)', '2'),
 	tiles = {
 		"default_gravel.png^zen_stone_02.png",
 		"default_gravel.png",
@@ -127,7 +127,7 @@ minetest.register_node("zen:garden_fragment_2", {
 })
 
 minetest.register_node("zen:garden_fragment_3", {
-	description = 'Zen Garden (stone fragment 3)',
+	description = i18n('Zen Garden (stone fragment @1)', '3'),
 	tiles = {
 		"default_gravel.png^zen_stone_03.png",
 		"default_gravel.png",
@@ -168,7 +168,7 @@ minetest.register_node("zen:garden_fragment_3", {
 })
 
 minetest.register_node("zen:garden_fragment_4", {
-	description = 'Zen Garden (stone fragment 4)',
+	description = i18n('Zen Garden (stone fragment @1)', '4'),
 	tiles = {
 		"default_gravel.png^zen_stone_04.png",
 		"default_gravel.png",
@@ -209,7 +209,7 @@ minetest.register_node("zen:garden_fragment_4", {
 })
 
 minetest.register_node("zen:garden_fragment_5", {
-	description = 'Zen Garden (stone fragment 5)',
+	description = i18n('Zen Garden (stone fragment @1)', '5'),
 	tiles = {
 		"default_gravel.png^zen_stone_05.png",
 		"default_gravel.png",
@@ -247,7 +247,7 @@ minetest.register_node("zen:garden_fragment_5", {
 })
 
 minetest.register_node("zen:garden_fragment_6", {
-	description = 'Zen Garden (stone fragment 6)',
+	description = i18n('Zen Garden (stone fragment @1)', '6'),
 	tiles = {
 		"default_gravel.png^zen_stone_06.png",
 		"default_gravel.png",
@@ -286,7 +286,7 @@ minetest.register_node("zen:garden_fragment_6", {
 })
 
 minetest.register_node("zen:garden_fragment_7", {
-	description = 'Zen Garden (stone fragment 7)',
+	description = i18n('Zen Garden (stone fragment @1)', '7'),
 	tiles = {
 		"default_gravel.png^zen_stone_07.png",
 		"default_gravel.png",
@@ -327,7 +327,7 @@ minetest.register_node("zen:garden_fragment_7", {
 })
 
 minetest.register_node("zen:garden_stone_1", {
-	description = 'Zen Garden (stone 1)',
+	description = i18n('Zen Garden (stone @1)', '1'),
 	tiles = {
 		"default_gravel.png^zen_stone_08.png",
 		"default_gravel.png",
@@ -365,7 +365,7 @@ minetest.register_node("zen:garden_stone_1", {
 })
 
 minetest.register_node("zen:garden_stone_2", {
-	description = 'Zen Garden (stone 2)',
+	description = i18n('Zen Garden (stone @1)', '2'),
 	tiles = {
 		"default_gravel.png^zen_stone_09.png",
 		"default_gravel.png",
@@ -405,7 +405,7 @@ minetest.register_node("zen:garden_stone_2", {
 })
 
 minetest.register_node("zen:garden_fragment_8", {
-	description = 'Zen Garden (stone fragment 8)',
+	description = i18n('Zen Garden (stone fragment @1)', '8'),
 	tiles = {
 		"default_gravel.png^zen_stone_10.png",
 		"default_gravel.png",
@@ -445,7 +445,7 @@ minetest.register_node("zen:garden_fragment_8", {
 })
 
 minetest.register_node("zen:garden_fragment_9", {
-	description = 'Zen Garden (stone fragment 9)',
+	description = i18n('Zen Garden (stone fragment @1)', '9'),
 	tiles = {
 		"default_gravel.png^zen_stone_11.png",
 		"default_gravel.png",
@@ -485,7 +485,7 @@ minetest.register_node("zen:garden_fragment_9", {
 })
 
 minetest.register_node("zen:garden_fragment_10", {
-	description = 'Zen Garden (stone fragment 10)',
+	description = i18n('Zen Garden (stone fragment @1)', '10'),
 	tiles = {
 		"default_gravel.png^zen_stone_12.png",
 		"default_gravel.png",
@@ -531,7 +531,7 @@ minetest.register_node("zen:garden_fragment_10", {
 })
 
 minetest.register_node("zen:garden_stone_5", {
-	description = 'Zen Garden (big stone)',
+	description = i18n('Zen Garden (big stone)'),
 	tiles = {"default_stone.png"},
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -569,7 +569,7 @@ minetest.register_node("zen:garden_stone_5", {
 })
 
 minetest.register_node("zen:garden_stone_3", {
-	description = 'Zen Garden (stone 3)',
+	description = i18n('Zen Garden (stone @1)', '3'),
 	tiles = {
 		"default_gravel.png^zen_stone_14.png",
 		"default_gravel.png",
@@ -613,7 +613,7 @@ minetest.register_node("zen:garden_stone_3", {
 })
 
 minetest.register_node("zen:garden_stone_4", {
-	description = 'Zen Garden (stone 4)',
+	description = i18n('Zen Garden (stone @1)', '4'),
 	tiles = {
 		"default_gravel.png^zen_stone_15.png",
 		"default_gravel.png",
@@ -658,7 +658,7 @@ minetest.register_node("zen:garden_stone_4", {
 })
 
 minetest.register_node("zen:garden_margin_1", {
-	description = 'Zen Garden (margin)',
+	description = i18n('Zen Garden (margin @1)', '1'),
 	tiles = {
 		"default_gravel.png^zen_stone_16.png",
 		"default_gravel.png",
@@ -695,7 +695,7 @@ minetest.register_node("zen:garden_margin_1", {
 })
 
 minetest.register_node("zen:garden_margin_2", {
-	description = 'Zen Garden (margin)',
+	description = i18n('Zen Garden (margin @1)', '2'),
 	tiles = {
 		"default_gravel.png^zen_stone_17.png",
 		"default_gravel.png",
@@ -732,7 +732,7 @@ minetest.register_node("zen:garden_margin_2", {
 })
 
 minetest.register_node("zen:garden_margin_3", {
-	description = 'Zen Garden (margin)',
+	description = i18n('Zen Garden (margin @1)', '3'),
 	tiles = {
 		"default_gravel.png^zen_stone_18.png",
 		"default_gravel.png",
@@ -768,7 +768,7 @@ minetest.register_node("zen:garden_margin_3", {
 })
 
 minetest.register_node("zen:garden_waterfall", {
-	description = 'Zen Garden (waterfall)',
+	description = i18n('Zen Garden (waterfall)'),
 	tiles = {
 		"default_gravel.png^zen_waterfall_top.png",
 		"default_gravel.png",
@@ -810,7 +810,7 @@ minetest.register_node("zen:garden_waterfall", {
 })
 
 minetest.register_node("zen:garden_wall_1", {
-	description = 'Zen Garden (wall 1)',
+	description = i18n('Zen Garden (wall @1)', '1'),
 	tiles = {
 		"default_gravel.png^zen_wall_1.png",
 		"default_gravel.png",
@@ -851,7 +851,7 @@ minetest.register_node("zen:garden_wall_1", {
 })
 
 minetest.register_node("zen:garden_wall_2", {
-	description = 'Zen Garden (wall 2)',
+	description = i18n('Zen Garden (wall @1)', '2'),
 	tiles = {
 		"default_gravel.png^zen_wall_2.png",
 		"default_gravel.png",
@@ -896,7 +896,7 @@ minetest.register_node("zen:garden_wall_2", {
 })
 
 minetest.register_node("zen:garden_wall_3", {
-	description = 'Zen Garden (wall 3)',
+	description = i18n('Zen Garden (wall @1)', '3'),
 	tiles = {
 		"default_gravel.png^zen_wall_3.png",
 		"default_gravel.png",
