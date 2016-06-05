@@ -1,0 +1,34 @@
+Zen Mod v0.0.1
+==============
+Combine gravel and cobblestone in all imaginable ways to create a unique rock
+garden.
+
+Crafting
+--------
+Place three gravel blocks in the bottom slots to get gravel basis for your
+garden.
+
+Place a block of gravel in any bottom slot and a block of cobblestone in any
+upper or middle slot to get a stone on gravel (18 different combinations).
+
+Place two cobblestones and a block of gravel in a vertical line to get a stone
+wall on gravel basis.
+
+Place a block of gravel between two cobblestones in the bottom file to get a
+waterfall.
+
+ToDo
+----
+* Rakes
+* Sound
+* Moss
+* Bridges
+* Bushes
+
+Authors
+-------
+Vitalie Ciubotaru <vitalie at ciubotaru dot tk>
+
+License
+-------
+see LICENSE
